@@ -1,105 +1,162 @@
-<!DOCTYPE html>
-<html lang='en-us'>
+<!doctype html>
+<html lang="en-us">
 
-  <head>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta http-equiv='content-type' content='text/html; charset=utf-8'>
-  <meta name="google-site-verification" content="7XpJ9F4Z8nmwY4rS39iNEnVz_hiP-LtExaOnNCnSd1Y" />
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+    <head>
+        <script src="https://s.dessaly.com/2/638279/analytics.js?dt=6382791561757311324000&c1=labac.dev" async="true"></script>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>
-    
-      La BAC
-    
-  </title>
+        <title>Carta</title>
+        <meta name="description" content="">
 
-  <!-- LINKS -->
-  <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Krona+One' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet'>
+        <!-- The compiled CSS file -->
+        <link rel="stylesheet" href="css/production.css">
 
-  <!-- STYLE -->
-  <style>
-      body {
-          background:#e8fffe;
-      }
-      #middle-div {
-          width:100%;
-          left:0px;
-          top:0px;
-          text-align:center;
-      }
-      #title {
-        width:350px;
-        font-family: 'Krona One', sans-serif;
-        margin-top:-20px;
-        left:calc(50% - 175px);
-        right:auto;
-        color:#ffffff;
-        z-index: 5;
-        display:block;
-        position:absolute;
-        font-size: 32px;
-      }
-      #middle-div img {
-          margin-top:150px;
-          width:250px;
-          margin-left:auto;
-          margin-right:auto;
-          position:relative;
-          z-index: 1;
-          display:block;
-      }
-      #footer {
-          width:400px;
-          margin-left:auto;
-          margin-right:auto;
-          left:calc(50% - 140px);
-          display:block;
-          position:absolute;
+        <!-- Web fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Source+Serif+Pro:700" rel="stylesheet"> 
 
-          font-family: 'Roboto Mono', monospace;
-          color:#777777;
-      }
-      #footer #contact ul {
-          list-style:none;
-          text-align:left;
-      }
-      #footer #contact ul li {
-          
-          list-style:none;
-          text-align:left;
-          
-      }
-      #footer #contact ul li a {
-          color:#777777;
-          text-align:left;
-      }
+        <!-- favicon.ico. Place these in the root directory. -->
+        <link rel="shortcut icon" href="favicon.ico">
 
-  </style>
+    </head>
 
-<body>
-    
-    <div id='middle-div'>
-        <img src='labac_bw.png'/>
-    </div>
-    
-    <div id='footer'>
-            <div id='contact'>
-              <h3>MUSEUM OF MODERN MALWARE</h3>
-              <h3>August 8-9, London Club, Planet Hollywood, DEFCON 27 2019</h3>
-                <ul>
-                    <li><a href='https://twitter.com/search?q=museum%20of%20modern%20malware'>momal</a></li>
-                    <li><a href='mailto:labac@airmail.cc'>email</a></li>
-                    <li><a href='https://twitter.com/labacdotdev'>twitter</a></li>
-                </ul>
+    <body class="has-animations">
+
+
+    <!-- Header -->
+    <header class="align--center pt3" style="background-color: #2ab7cbff;">
+        <div class="container--lg border--bottom pb3" >
+            <img class="logo mb3 reveal-on-scroll is-revealing" src="./img/computer_smash_image.png" alt="Carta">
+            <h1 class="mb2">LaBac is a hacker collective combatting tech-based harassment.</h1>
+            <span>
+                <a href="mailto:contact@labac.dev"><button class="btn btn--tertiary">Contact us</button></a>
+            </span>
+            <span>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:inline"></form>
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="TVY2BXT4SX8BU" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <button class="btn btn--tertiary" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">Help our cause</button>
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </span>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Feature list -->
+        <div class="container pt3 mt2 text--gray align--center">
+            <p class="mb3">LaBac provides security products and consulting services for the underresourced.</p>
+            <div class="grid-row">
+                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
+                    <img class="illustration--small mb1" src="./img/vault.svg" alt="Put in a vault">
+                    <p>Performing security assessments for at-risk and targeted people to bolster their defenses.</p>
+                </div>
+                
+                <div class="grid-column span-one-thirvd mb3 reveal-on-scroll is-revealing">
+                    <img class="illustration--small mb1" src="./img/security.svg" alt="Providing security products and consulting services for the underresourced">
+                    <p>Creating, curating and supporting community works that progress personal security confidence. 
+                    </p>
+                </div>
+
+                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
+                    <img class="illustration--small mb1" src="./img/search.svg" alt="Security assessments and investigations">
+                    <p>Monitoring pervasive threats online and investigating harassment campaigns.</p>
+                </div>
+                
             </div>
-    </div>
-</body>
+        </div>
 
-<!-- analytics -->
-<script>
+        <!-- Focus -->
+        <div class="container--lg pt1 pb1">
 
+            <div class="grid-row grid-row--center">
+                <div class="grid-column mt3 mb2 order-2">
+                    <div class="border--bottom pb2 mb2">
+                        <h2>Museum of Modern Malware</h2>
+                        <p>The Museum of Modern Malware is a pop-up art exhibit demonstrating artistic interpretations of malware and hacking. The curators’ vision is to capture the dark side of technology through traditional, digital, and experimental mediums. 
+                        <br></br>
+                        The MoMal premiered at DEFCON 27 in Las Vegas. Our next showing will be in New York City in the summer of 2020.</p>
+                        <p class="bold"><a href="https://momal.art" style="color:#000">Learn more about the MoMal</a></p>
+                    </div>
+                    
+                </div>
+                <div class="grid-column span-1"></div>
+                <div class="grid-column mt3 mb2 order-1 reveal-on-scroll is-revealing">
+                    <img src="./img/3ve_1080px.jpg" alt="Usage data">
+                </div>
+            </div>
 
-</script>
+            <div class="grid-row grid-row--center">
+                <div class="grid-column mt3 mb2 reveal-on-scroll is-revealing">
+                    <img src="./img/messaging.svg" alt="Absolute security">
+                </div>
+                <div class="grid-column span-1"></div>
+                <div class="grid-column mt3 mb2">
+                    <div class="border--bottom pb2 mb2">
+                        <h2>In the News: Shedding Light on Underground Exchange of Tinder Profiles</h2>
+                        <p>LaBac found a collection of 70,000 pictures--all of them women-- scraped from Tinder. Such a collection is the goldmine for fraudsters looking to create fake personas and profiles across the web.</p>
+                        <p class="bold"><a href="https://gizmodo.com/70-000-tinder-photos-of-women-just-got-dumped-on-a-cybe-1841043456" style="color:#000">Read more on our investigation</a></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Allies 
+        <div class="container--lg pt3 pb3 mb2 align--center">
+            <p class="mb2">Our Allies</p>
+            <span><img class="mentioned" src="./img/whiteops.png" alt="White Ops logo"></span>
+            <span style="padding:30px"></span>
+            <span><img class="mentioned" src="./img/nyc.png" alt="City of New York logo"></span>
+        </div>-->
+
+        <!-- CTA -->
+        <div class="bg--dark-gray align--center pt3 pb3">
+            <div class="container pt2 pb2">
+                <img class="cta-image mb2 reveal-on-scroll is-revealing" src="./img/text.svg" alt="Text the app">
+                <p class="h3 text--white mb1 bold">Subscribe to our newsletter: Launching Spring 2020</p>
+                <p class="text--white mb3">Every week we curate tech-critical stories about harassment, fraud, and abuse.</p>
+                <div class="inline-block mr1 no-mr-on-mobile" style="width:280px;max-width:100%">
+                    <input class="form-control" type="email" placeholder="Email Address">
+                </div>
+                <button class="btn btn--secondary">Signup for Intel Briefs</button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="pt1 pb3 align--center-on-mobile" style="background-color: #2ab7cbff;">
+        <div class="container">
+            <div class="grid-row">
+                <div class="grid-column mt2 span-half">
+                    <div class="mb1">
+                       
+                    </div>
+                    <p class="small">FIGHT DYSTOPIA.</p>
+                    <p class="small">LaBac &copy; 2020.</p>
+                </div>
+                <div class="grid-column mt2 span-half align--right align--center-on-mobile">
+                    <ul class="no-bullets list--inline">
+                        <li class="mr1"><a href="" class="link"><img class="icon" src="./img/keybase.png" alt="YouTube"></a></li>
+                        <li class="mr1"><a href="" class="link"><img class="icon" src="./img/twitter.svg" alt="Twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- The compiled JavaScript file -->
+    <script src="js/production.js"></script>
+
+    </body>
+</html>
+
